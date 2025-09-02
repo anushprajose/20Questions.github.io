@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compatibility Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Compatibility Checker ✨</h1>
+    <p>Answer the following 20 questions to check our compatibility!</p>
+
+    <form id="compatibilityForm">
+      
+      <!-- Questions -->
+      <div class="question">
+        <label>1. Do you enjoy problem-solving?</label>
+        <select name="q1" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>2. Do you like working in teams?</label>
+        <select name="q2" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>3. How do you prefer to spend free time?</label>
+        <select name="q3" required>
+          <option value="">Select</option>
+          <option value="reading">Reading</option>
+          <option value="traveling">Traveling</option>
+          <option value="gaming">Gaming</option>
+          <option value="movies">Watching Movies</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>4. Do you consider yourself good at time management?</label>
+        <select name="q4" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>5. Do you like outdoor adventures?</label>
+        <select name="q5" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>6. Do you enjoy cooking?</label>
+        <select name="q6" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>7. Are you a morning person?</label>
+        <select name="q7" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>8. Do you like trying new cuisines?</label>
+        <select name="q8" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>9. Do you enjoy reading books?</label>
+        <select name="q9" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>10. Do you like traveling?</label>
+        <select name="q10" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>11. Do you watch a lot of movies/series?</label>
+        <select name="q11" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>12. Do you like pets?</label>
+        <select name="q12" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>13. Do you enjoy gaming?</label>
+        <select name="q13" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>14. Do you prefer mountains over beaches?</label>
+        <select name="q14" required>
+          <option value="">Select</option>
+          <option value="mountains">Mountains</option>
+          <option value="beaches">Beaches</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>15. Are you comfortable with long conversations?</label>
+        <select name="q15" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>16. Do you like trying out new technology?</label>
+        <select name="q16" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>17. Do you enjoy exercising/fitness?</label>
+        <select name="q17" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>18. Do you prefer tea over coffee?</label>
+        <select name="q18" required>
+          <option value="">Select</option>
+          <option value="tea">Tea</option>
+          <option value="coffee">Coffee</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>19. Do you enjoy attending social events?</label>
+        <select name="q19" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>20. Do you like listening to music often?</label>
+        <select name="q20" required>
+          <option value="">Select</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+
+      <button type="submit">Check Compatibility</button>
+    </form>
+
+    <div id="result"></div>
+    <div id="visitor-info"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
